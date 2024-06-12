@@ -1,0 +1,83 @@
+.content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-background);
+}
+
+.main-card{
+    width: 70vw;
+    height: 50vh;
+    padding: 5rem;
+    background: url(../images/image-header-desktop.jpg) no-repeat center right;
+    background-size:contain;
+    background-color: var(--card-background) ;
+    border-radius: 1rem;
+}
+
+.main-page{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+
+header{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#accent{
+    color: var(--accent);
+}
+
+main{
+    color: var(--main-paragraph);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: left;
+}
+
+.list{
+    
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.list-main{
+    color: var(--stat-headings);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.attribution{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    background: var(--card-background);
+    border-radius: 2rem;
+}
+
+.attribution a{
+    color: var(--main-heading);
+    text-decoration: none;
+}
+
+.attribution a:hover{
+    transition: 0.2s;
+    color: var(--main-paragraph);
+}
+

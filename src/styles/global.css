@@ -1,0 +1,21 @@
+:root{
+    --main-background: hsl(233, 47%, 7%);
+    --card-background: hsl(244, 38%, 16%);
+    --accent: #aa5cdb;
+    --main-heading: hsl(0, 0%, 100%);
+    --main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 15px;
+    color: var(--main-heading);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
